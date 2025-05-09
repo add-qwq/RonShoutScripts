@@ -1,37 +1,55 @@
-# RonShoutScripts
 
-English:
+# RonShoutScripts  
 
-This is a script suitable for GTA5
+## English:  
+### What's this?  
+A script designed for **GTA 5**, inspired by gameplay elements from *Ready Or Not* (RON).  
 
-What's its function?
 
-It allows you to experience some small gameplay elements from Ready Or Not in GTA 5: specifically, the "Judge" suspect surrender function from Ready Or Not (although this script doesn’t have actual surrender functionality in GTA 5, so it may be more suitable for LSPDFR players).
+### Functionality  
+Emulates the "Judge" suspect surrender mechanic from RON in GTA 5 (note: no actual surrender logic in GTA 5; best suited for **LSPDFR** players).  
 
-How to use it?
 
-When holding the right mouse button (in aiming state), you can quickly double-click F to trigger voice lines. I’ve made some adjustments for misoperations, such as disabling vehicle entry control—this prevents you from being forced to enter a vehicle when double-clicking F while holding the right mouse button. Of course, you can still get into vehicles normally when not holding the right mouse button.
+### How to Use  
+- While holding **Right Mouse Button** (aiming state), quickly double-click **F** to trigger voice lines.  
+- Misoperation prevention: Vehicle entry is disabled during right-click + F double-click to avoid accidental vehicle interaction. Normal vehicle entry works when not holding right-click.  
 
-how to install ?
 
-To ensure the script runs successfully, first install the necessary dependencies such as ScriptHookV, ScriptHookVDotNet, and .NET 8. Then extract the downloaded files to the root directory of the GTA 5 game, and the installation will be complete.
+### Installation Steps  
+1. **Install dependencies**:  
+   - [ScriptHookV](https://www.dev-c.com/gtav/scripthookv/)  
+   - [ScriptHookVDotNet](https://github.com/crosire/scripthookvdotnet)  
+   - .NET 8 Runtime  
+2. Extract downloaded files to your GTA 5 root directory (e.g., `...\Grand Theft Auto V\`).  
 
-However, unfortunately, due to copyright issues, I cannot directly provide the relevant audio from RON (Ready Or Not). Please replace the "empty audio files" (such as: 1.wav and 2.wav) in the "RonShoutAudio" folder within the file yourself. Of course, if you don’t play RON, you can also replace them with other audio—this is entirely up to you.
 
-中文：
+### Important Notes  
+- **Audio Replacement Required**: Due to copyright restrictions, the script includes empty audio placeholders (e.g., `1.wav`, `2.wav`) in the `RonShoutAudio` folder. Replace these with your own audio files (e.g., RON voice lines or custom sounds).  
+- Platform: Works with GTA 5 (PC version). LSPDFR integration is recommended for law enforcement roleplay scenarios.  
 
-这是一个适用于 gta5 的脚本
 
-它的功能？
+## 中文：  
+### 这是什么？  
+一个为 **GTA 5** 设计的脚本，灵感源自《严阵以待》（*Ready Or Not*, RON）的玩法元素。  
 
-它可以让你在 gta5 中体验严阵以待（ Ready Or Not）的一些小玩法：严阵以待里面 “判官” 对嫌犯劝降的功能（虽然在 gta5 里面没有实际的劝降功能，所以此脚本可能更适合 LSPDFR 玩家）
 
-如何使用？
+### 功能  
+在 GTA 5 中模拟 RON 里“判官”对嫌犯的劝降机制（注：GTA 5 无实际劝降功能，更适合 **LSPDFR** 玩家）。  
 
-按住右键时（瞄准状态），你可以快速双击 F 来触发语音，我对误判进行了一点适配，如：禁用车辆进入控制，这样你就不会在按住右键时因为双击 F 而被迫上车了，当然 你依旧可以在没有按住右键时正常上车
 
-如何安装？
+### 使用方法  
+- 按住 **右键**（瞄准状态）时，快速双击 **F键** 触发语音。  
+- 误操作适配：右键按住时双击 F 会禁用车辆进入功能，避免误上车；未按住右键时可正常上车。  
 
-如果需要使脚本成功运行，先安装脚本运行依赖，如：ScriptHookV，ScriptHookVDotNet，.NET 8 然后将下载的文件解压至 gta5 的游戏根目录就安装成功了
 
-但是 很遗憾，因为版权原因，我并不能直接提供 RON 的相关音频，所以请自行替换文件内（RonShoutAudio 文件夹）的” 空音频文件 “（如：1.wav 和 2.wav），当然，如果你不喜欢玩 ron，也可以换成别的音频，这取决于你
+### 安装步骤  
+1. **安装依赖项**：  
+   - [ScriptHookV](https://www.dev-c.com/gtav/scripthookv/)  
+   - [ScriptHookVDotNet](https://github.com/crosire/scripthookvdotnet)  
+   - .NET 8 运行时  
+2. 将下载文件解压到 GTA 5 游戏根目录（如 `...\Grand Theft Auto V\`）。  
+
+
+### 注意事项  
+- **音频文件需自行替换**：因版权问题，脚本内 `RonShoutAudio` 文件夹中的音频文件（如 `1.wav`、`2.wav`）为占位文件，请自行替换为所需音频（如 RON 语音或自定义音效）。  
+- 适用平台：GTA 5 PC 版，推荐配合 LSPDFR 进行警匪角色扮演。
